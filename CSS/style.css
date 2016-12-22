@@ -50,10 +50,11 @@ body{
 }
 
 #navbar li a{
+	font-size: 13px;
 	color: white;
 	display: block;
 	text-decoration: none;
-	padding: 10px 20px; /* adds padding to top/bottom and left/right */
+	padding: 12px 20px; /* adds padding to top/bottom and left/right */
 }
 
 .selected{ /*Adds a background color on navbar to the current page of the website*/
