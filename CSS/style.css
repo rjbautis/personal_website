@@ -15,7 +15,7 @@ body{
 }
 
 #container{
-  width: 100%;  /* this determines width of #header, #navbar, #content, #footer */
+  width: 100%;  /* determines width of #header, #navbar, #content, #footer */
   min-height: 100%;
   position: absolute; 
   margin-left: auto;
