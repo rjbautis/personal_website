@@ -1,0 +1,1 @@
+think about using Font Awesome API for icons and other CSS stuff
