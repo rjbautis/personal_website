@@ -1,126 +1,41 @@
-@import url('https://fonts.googleapis.com/css?family=Spinnaker|Open+Sans');
-
-html{
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 body{
-  font-family: 'Open Sans';
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #feedcf;
+   font-family: 'Muli', sans-serif;
 }
 
-#container{
-  width: 100%;  /* determines width of #header, #navbar, #content, #footer */
-  min-height: 100%;
-  position: absolute; 
-  margin-left: auto;
-  margin-right: auto;
+h1, h2{
+   font-weight: bold;
 }
 
-#header{
-  background-color: #efb924;
-  text-align: center;
-  padding: 1px;
+.row {
+   text-align: center;
 }
 
-#header img{
-  width: 300px;
+.glyphicon-large {
+   font-size: 80px;
 }
 
-
-#navbar ul{
-  margin: 0px;
-  padding: 1px;
-  overflow: hidden;
-
-  font-family: 'Spinnaker';
-  text-transform: uppercase;
-  background-color: #555;
-
+ul.about {
+   list-style: disc;
+   text-align: left;
+   font-size: 18px;
 }
 
-#navbar li{
-  float: left; /* Makes the navbar horizontal */
-  list-style-type: none;
+ul.fa_list {
+   list-style: none;
+   padding-left: 0;
 }
 
-#navbar li a{
-  font-size: 13px;
-  color: white;
-  display: block;
-  text-decoration: none;
-  padding: 12px 20px; /* adds padding to top/bottom and left/right */
+ul.fa_list li {
+   display: inline-block;
+   text-align:left;
+   padding: 25px;
+   padding-top: 10px;
 }
 
-.selected{ /*Adds a background color on navbar to the current page of the website*/
-  background-color: black;
+.fa:hover {
+   color: black;
 }
 
-#navbar li a:hover:not(.selected){
-  background-color: grey;
-}
-#content{
-  padding: 30px 30px 30px 30px; /* top right bottom left */
-}
-
-#content h2{
-  margin: 0;
-}
-
-#footer{
-  width: 100%; /* 100% of the container's width, since #footer is ancestor of #container in index.html*/
-  position: absolute; /* position is absolutely relative to the parent #container */
-  padding: 7px 0px 7px 0px;
-  bottom: 0; /* puts it at the bottom of the webpage */
-  clear: both;
-  
-  font-family: 'Spinnaker';
-  background-color: #555;
-  text-align: center;
-  color: white;
-  font-size: 13px;
-}
-
-/*   ------------------------- about.html -------------------------   */
-
-#myImage img{
-  padding: 10px 0 15px 0;
-  width: 27%;
-  float: left;
-}
-
-#main{
-  width: 70%;
-  padding-bottom: 30px;
-  float: right;
-}
-
-/*   ------------------------- contact.html -------------------------   */
-
-#social div{
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0;
-  padding: 20px 20px 5px 20px;
-}
-
-#social{
-  text-align: center;
-}
-
-#LinkedIn img, #Github img{
-  width: 50px;
-}
-
-#UCSC img{
-  width: 200px;
-}
-
-#Gmail img{
-  width: 70px;
+.btn:hover {
+   background-color:black;
 }

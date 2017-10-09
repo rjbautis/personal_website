@@ -1,50 +1,60 @@
 <!DOCTYPE html>
-<!-- My first website attempt. 12/18/2016 -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ryan Bautista</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
 
-<html>
-<head>
-  <title>Ryan Bautista</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./CSS/style.css">
-  <link rel="icon" type="image/png" href="./Assets/favicon-32x32.png">
-</head>
-
-<body>
-  <div id = "container">  
-    <div id = "header">
-    <!-- Font name: spinnaker -->
-      <h1><img src="./Assets/myName.png"></h1> 
+  <body>
+    <div class="jumbotron">
+      <div class = "container">
+        <div class="row">
+          <div class = "col-md-3">
+            <img src="assets/myImage.png" height="200px"/>
+          </div>
+          <div class = "col-md-9">
+            <h1>Ryan Bautista</h1>
+            <br>
+            <p> Hello, world! I'm currently pursuing a Bachelor of Science, Computer Science at UC Santa Cruz. </p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div id = "navbar">
-      <ul>
-        <li><a class="selected" href="./index.html"> Home </a></li>
-        <li><a href= "./HTML/about.html"> About </a></li>
-        <li><a href= "./HTML/projects.html"> Projects </a></li>
-        <li style="float: right;"><a href="./HTML/contact.html"> Contact </a></li> 
-        <!-- Put style inside the tag to make it go right-->
-      </ul>
-    </div>
-
-    <div id = "content">
-      <h2>Home Page</h2>
-      <hr style="border-color: #555">
-
-      <p>Hi, my name is Ryan!</p>
-      
-      <p>I'm an aspiring computer programmer attending UC Santa Cruz who wants to make an imprint on the world. Although there are many ways to leave your mark on society, there is no better way than by creating your own space of self-expression and knowledge. Therefore, I want this website to become the area where I can share my story and my projects with everyone. This is my fiirst step towards leaving my imprint with you all.</p> 
-
-      <p>As a kid who spent 19 years growing up up in the San Francisco Bay Area, I've witnessed most of the exciting (and not-so-exciting) transformations that have flown from the current cultural, tech revolution. Needless to say, I am so ready to take on the world as a young programmer who is seeking to learn new skills and constantly improve.</p>
-
-
-    </div>
-
-    <div id = "footer">
-      Copyright &copy; 2016 Ryan Bautista
-    </div>
-
-  </div>
-
-</body>
-
+    <div class = "container">
+      <div class ="row">
+        <br>
+        <div class = "col-md-6">
+          <span class="glyphicon glyphicon-user glyphicon-large" aria-hidden="true"></span>
+          <h2>Who am I?</h2>
+          <ul class="about">
+            <li>I am a third year Computer Science undergraduate at UCSC</li>
+            <li>I have experience working in Python, Java, C, SQL, and HTML/CSS/JS</li>
+            <li>I have lived in the Bay Area all my life. San Francisco is my home</li>
+            <li>I love milk tea! The best milk tea spots are in San Jose, CA</li>
+            <li>I practice playing the piano often, but I'm not that good (yet)!</li>
+          </ul>
+        </div>
+        <br>
+        <div class = "col-md-6">
+          <span class="glyphicon glyphicon-comment glyphicon-large" aria-hidden="true"></span> 
+          <h2>Let's Talk</h2>
+          <ul class=fa_list>
+            <li><a href="https://www.linkedin.com/in/ryan-j-bautista/"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/rjbautis"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a></li>
+            <li><a href="mailto:rjbautis1@gmail.com"><i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i></a></li>
+          </ul>
+          <a href="./RyanBautistaResume.pdf" class="btn btn-primary" role="button">View Resume</a>
+        </div>
+        <br>
+    </div>      
+  </body>
 </html>
